@@ -14,7 +14,7 @@ def get_books():
     page = int(request.args.get('page', 1))
     per_page = int(request.args.get('per_page', 5))
 
-    # if search_title == 'undefined' and search_author == 'undefined':
+    # if search_title == '' and search_author == '':
     #     # Case 1: Retrieve all books without filters
     #     books = [book.__dict__ for book in data_library.book_collection]
     #     start = (page - 1) * per_page

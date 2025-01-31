@@ -2,15 +2,7 @@
     {
         "member_id": 1,
         "name": "Anubhav Ranjan",
-        "borrowed_books": [
-            {
-                "book_id": 1,
-                "title": "The Guide",
-                "author": "R. K. Narayan",
-                "category": "Non-Fiction",
-                "status": "borrowed"
-            }
-        ],
+        "borrowed_books": [],
         "membership": "Premium",
         "max_books": 5
     },
